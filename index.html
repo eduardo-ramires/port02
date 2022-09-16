@@ -16,7 +16,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.101.0">
-    <title>Portifólio Euardo Ramires</title>
+    <title>Portifólio Eduardo Ramires</title>
     <script src="https://kit.fontawesome.com/a76347d30e.js" crossorigin="anonymous"></script>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
@@ -99,37 +99,23 @@
                 </ul>
             </header>
         </div>
-        <div class="container-fluid  fixed-top ">
-            <nav class="fixed-top navbar d-md-none d-lg-none ">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNavbar " aria-controls="offcanvasNavbar">
-                        <span class="navbar-toggler-icon text-dark"></span>
+        <div class="container-fluid  fixed-top d-md-none d-lg-none">
+            <nav class="navbar navbar-expand-lg navbar-light cor-header">
+                <div class="container ">
+                    <img class=" " style="width: 15%; margin-top: -10%;" src="foto/css-circle.png" alt="css">
+                            <img class="" style="width: 15%; margin-top: 7%;" src="foto/js-circle.png" alt="js">
+                            <img class=" " style="width: 15%;  margin-top: -10%;" src="foto/html-circle.png" alt="html">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="offcanvas offcanvas-end bg-darktext-dark" tabindex="-1" id="offcanvasNavbar"
-                        aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title " id="offcanvasNavbarLabel">Ramires e-front</h5>
-                            <button type="button" class="btn-close " data-bs-dismiss="offcanvas"
-                                aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item ">
-                                    <a class="nav-link" href="#sobre_mim">Sobre Mim</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#projetos">Projetos</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#habilidade">Habilidades</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#contato">Contato</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item mt-2"><a href="#sobre_mim" class="nav-link text-dark"
+                                aria-current="page">Home</a></li>
+                        <li class="nav-item mt-2"><a href="#projetos" class="nav-link text-dark">Projetos</a></li>
+                        <li class="nav-item mt-2"><a href="#habilidade" class="nav-link text-dark" >Habilidades</a></li>
+                        <li class="nav-item mt-2"><a href="#contato" class="nav-link text-dark">Contato</a></li>
+                        </ul>
                     </div>
                 </div>
             </nav>
@@ -147,12 +133,6 @@
                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 avatar">
                             <img class="w-100" src="foto/minha_foto.png" alt=""
                                 style="opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 3s cubic-bezier(0.5, 0, 0, 1) 0s, transform 3s cubic-bezier(0.5, 0, 0, 1) 0s;">
-                            <div class="d-block">
-                                <img class="circulo css d-none d-md-flex d-lg-flex" src="foto/css-circle.png" alt="css">
-                                <img class="circulo html d-none d-md-flex d-lg-flex" src="foto/html-circle.png"
-                                    alt="html">
-                                <img class="circulo js d-none d-md-flex d-lg-flex" src="foto/js-circle.png" alt="js">
-                            </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 text-dark ">
                             <h1 class="text-center">SOBRE MIM</h1>
@@ -295,13 +275,15 @@
 
 
                         </div>
-                        <p class="text-center">
+                        <p class="text-center" >
                             <button style="color: black;" class="btn btn-outline-dark mt-4" id="btn-ver-menos" onclick="verMenos()">
                                 Ver menos
                             </button>
                         </p>
                     </div>
+                    <p id="habilidade_cell"></p>
                 </div>
+                
             </div>
         </section>
 
