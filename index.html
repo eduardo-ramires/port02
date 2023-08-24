@@ -25,6 +25,26 @@
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
+        footer {
+            
+            color: #2a2929;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .contact a,
+        .git a {
+            color: #383838;
+            text-decoration: none;
+        }
+
+        .contact p,
+        .git p {
+            margin: 0;
+        }
+
         @media (min-width: 768px) {
             .bd-placeholder-img-lg {
                 font-size: 3.5rem;
@@ -84,15 +104,13 @@
         <div class="container-fluid  fixed-top cor-header">
             <header class="d-flex justify-content-center py-3 d-none d-md-flex">
                 <ul class="nav nav-pills ">
-
                     <li class="nav-item"><a href="index.html" class="nav-link text-dark" aria-current="page">
                             <img class="margem-header-circulos w-25" src="foto/css-circle.png" alt="css">
                             <img class="mt-1 w-25" src="foto/js-circle.png" alt="js">
                             <img class="margem-header-circulos w-25" src="foto/html-circle.png" alt="html">
                         </a>
                     </li>
-                    <li class="nav-item mt-2"><a href="#sobre_mim" class="nav-link text-dark"
-                            aria-current="page">Home</a></li>
+                    <li class="nav-item mt-2"><a href="#sobre_mim" class="nav-link text-dark" aria-current="page">Home</a></li>
                     <li class="nav-item mt-2"><a href="#projetos" class="nav-link text-dark">Projetos</a></li>
                     <li class="nav-item mt-2"><a href="#habilidade" class="nav-link text-dark">Habilidades</a></li>
                     <li class="nav-item mt-2"><a href="#contato" class="nav-link text-dark">Contato</a></li>
@@ -119,34 +137,25 @@
                     </div>
                 </div>
             </nav>
-
         </div>
     </section>
 
     <main>
         <i id="sobre_mim" class="mb-5">.</i>
-
         <div class="container-fluid ">
             <section class="area-2">
                 <div class="container margem-top-sobre-mim ">
                     <div class="row bordas-sobre-mim">
                         <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 avatar">
-                            <img class="w-100" src="foto/minha_foto.png" alt=""
-                                style="opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 3s cubic-bezier(0.5, 0, 0, 1) 0s, transform 3s cubic-bezier(0.5, 0, 0, 1) 0s;">
+                            <img class="w-100" src="foto/minha_foto.png" alt="" style="opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 3s cubic-bezier(0.5, 0, 0, 1) 0s, transform 3s cubic-bezier(0.5, 0, 0, 1) 0s;">
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 text-dark ">
-                            <h1 class="text-center">SOBRE MIM</h1>
+                            <h1 class="text-center">Sobre mim</h1>
                             <p>
-                                Meu nome é Eduardo Ramires, moro em Santa Maria/RS e sou apaixonado pela programação,
-                                desde que conheci esta área em 2020, quando estávamos no auge da pandemia. Comecei
-                                assistindo a vídeoaulas e virou vício, porém sem a orientação de alguém que entendesse
-                                da área. Somente em 2022 é que realmente comecei a aprender front-end no curso do senac,
-                                o curso RSTI.
+                                Eu sou Eduardo Ramires, natural de Santa Maria/RS, e minha paixão pela programação nasceu em 2020, durante o auge da pandemia. O que começou como uma atração por vídeoaulas se transformou em um vício. Porém, faltava-me orientação de alguém versado na área. Foi apenas em 2022 que mergulhei de fato no aprendizado do desenvolvimento front-end por meio do curso RSTI do Senac.
                             </p>
                             <p id="projetos">
-                                Agora que terminei o curso RSTI, sinto-me preparado para trabalhar na área da tecnologia
-                                Front-end, pois acredito estar apto para desenvolver sites utilizando o HTML, CSS,
-                                JavaScript, é claro que com ajuda da lógica da programação, para ter 100% de proveito.
+                                A conclusão do curso RSTI e minha experiência acumulada na área me conferem agora a confiança para criar aplicações web usando tecnologias como HTML, CSS, JavaScript e outras, proporcionando-me as bases sólidas necessárias para tal empreendimento.
                             </p>
                         </div>
                     </div>
@@ -163,33 +172,30 @@
                     <h1 class=" text-center text-dark">PROJETOS</h1>
                     <div class="row ">
                         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
-                            <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid black;">
+                            <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid rgba(0, 0, 0, 0.564);">
                                 <a class="text-dark" href="https://eduardo-ramires.github.io/r-m_informatica/"
                                     target="_blank">
-                                    <div class="card card-header"><img class="border-radius tamanho-img"
-                                            src="foto/rm_informatica.jpg" alt="" style="margin-bottom: 1.5%;"></div>
+                                    <div class="card card-header"><img class="border-radius tamanho-img" src="foto/rm_informatica.jpg" alt="" style="margin-bottom: 1.5%;"></div>
                                     <div class="card-body"></i> R & M INFORMÁTICA
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
-                            <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid black;">
+                            <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid rgba(0, 0, 0, 0.564);">
                                 <a class="text-dark" href="https://eduardo-ramires.github.io/R-M_cursos/"
                                     target="_blank">
-                                    <div class="card card-header"><img class="border-radius tamanho-img"
-                                            src="foto/r&m-cursos.jpg" alt=""></div>
+                                    <div class="card card-header"><img class="border-radius tamanho-img" src="foto/r&m-cursos.jpg" alt=""></div>
                                     <div class="card-body"></i> R & M CURSOS
                                     </div>
                                 </a>
                             </div>
                         </div>
                         <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
-                            <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid black;">
+                            <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid rgba(0, 0, 0, 0.564);">
                                 <a class="text-dark" href="endereco.html"
                                     target="_blank">
-                                    <div class="card card-header"><img class="border-radius tamanho-img"
-                                            src="foto/formulario.jpg" alt=""></div>
+                                    <div class="card card-header"><img class="border-radius tamanho-img" src="foto/formulario.jpg" alt=""></div>
                                     <div class="card-body"></i> CADASTRO DE ENDEREÇO
                                     </div>
                                 </a>
@@ -208,114 +214,92 @@
                     <div style="display: none;" id="ver-mais">
                         <div class="row">
                             <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
-                                <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid black;">
+                                <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid rgba(0, 0, 0, 0.564);">
                                     <a class="text-dark" href="https://eduardo-ramires.github.io/RSTI_card/"
                                         target="_blank">
-                                        <div class="card card-header"><img class="border-radius tamanho-img "
-                                                src="foto/primeira-page.jpg" alt="" style="margin-bottom: 1.8%;"></div>
+                                        <div class="card card-header"><img class="border-radius tamanho-img " src="foto/primeira-page.jpg" alt="" style="margin-bottom: 1.8%;"></div>
                                         <div class="card-body"></i> MINHA 1º PÁGINA
                                         </div>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
-                                <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid black;">
+                                <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid rgba(0, 0, 0, 0.564);">
                                     <a class="text-dark" href="https://eduardo-ramires.github.io/ingles-ficticio/"
                                         target="_blank">
-                                        <div class="card card-header"><img class="border-radius tamanho-img "
-                                                src="foto/trans-rsti.jpg" alt="" style="margin-bottom: 1.3%;"></div>
+                                        <div class="card card-header"><img class="border-radius tamanho-img " src="foto/trans-rsti.jpg" alt="" style="margin-bottom: 1.3%;"></div>
                                         <div class="card-body"></i> TRANS RSTI
                                         </div>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
-                                <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid black;">
+                                <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid rgba(0, 0, 0, 0.564);">
                                     <a class="text-dark" href="https://eduardo-ramires.github.io/RSTI_card/"
                                         target="_blank">
-                                        <div class="card card-header"><img class="border-radius tamanho-img "
-                                                src="foto/rsti-card.jpg" alt="" style="margin-bottom: 1.8%;"></div>
+                                        <div class="card card-header"><img class="border-radius tamanho-img " src="foto/rsti-card.jpg" alt="" style="margin-bottom: 1.8%;"></div>
                                         <div class="card-body"></i> RSTI CARD
                                         </div>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
-                                <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid black;">
+                                <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid rgba(0, 0, 0, 0.564);">
                                     <a class="text-dark" href="https://eduardo-ramires.github.io/TWD/" target="_blank">
-                                        <div class="card card-header"><img class="border-radius tamanho-img "
-                                                src="foto/inovacao-ceara.jpg" alt=""></div>
+                                        <div class="card card-header"><img class="border-radius tamanho-img " src="foto/inovacao-ceara.jpg" alt=""></div>
                                         <div class="card-body">INOVAÇÃO CEARÁ</i>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
-                                <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid black;">
+                                <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid rgba(0, 0, 0, 0.564);">
                                     <a class="text-dark" href="https://eduardo-ramires.github.io/ingles-ficticio/"
                                         target="_blank">
-                                        <div class="card card-header"><img class="border-radius tamanho-img "
-                                                src="foto/ficticia-inges.jpg" alt="" style="margin-bottom: 1.3%;"></div>
+                                        <div class="card card-header"><img class="border-radius tamanho-img "  src="foto/ficticia-inges.jpg" alt="" style="margin-bottom: 1.3%;"></div>
                                         <div class="card-body"></i> ESCOLA DE INGLÊS
                                         </div>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mt-4">
-                                <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid black;">
-                                    <a class="text-dark" href="https://eduardo-ramires.github.io/TWD/" target="_blank">
-                                        <div class="card card-header"><img class="border-radius tamanho-img "
-                                                src="foto/twd.jpg" alt=""></div>
-                                        <div class="card-body">THE WALKING DEAD</i>
+                                <div class="card bg-transparent text-center text-dark tamanho-habilidades" style="border: 1px solid rgba(0, 0, 0, 0.564);">
+                                    <a class="text-dark" href="https://eduardo-ramires.github.io/terceirao/" target="_blank">
+                                        <div class="card card-header"><img class="border-radius tamanho-img " src="foto/JOGO.PNG" alt=""></div>
+                                        <div class="card-body">JOGO DE PERGUNTAS E RESPOSTAS</i>
                                         </div>
                                     </a>
                                 </div>
                             </div>
-
-
-
                         </div>
                         <p class="text-center" >
-                            <button style="color: black;" class="btn btn-outline-dark mt-4" id="btn-ver-menos" onclick="verMenos()">
+                            <button style="border: 1px solid rgba(0, 0, 0, 0.564);" class="btn btn-outline-dark mt-4" id="btn-ver-menos" onclick="verMenos()">
                                 Ver menos
                             </button>
                         </p>
                     </div>
                     <p id="habilidade_cell"></p>
                 </div>
-                
             </div>
         </section>
-
-
-
-
         <section class="area-4" >
-            <div class="container-fluid " style="margin-top: 10%;">
-                <h1 class=" text-dark text-center borda-projetos" id="habilidade">HABILIDADES</h1>
+            <div class="container-fluid">
+                <h1 class=" text-dark text-center borda-projetos" id="habilidade">Habilidades</h1>
                 <div class="row d-md-none d-lg-none">
                     <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 d-flex text-center">
-                        <button class="habilidades">
-                            <img style="width: 80%; " src="foto/html-5-removebg-preview.png" alt=""></button>
-                        <button class="habilidades">
-                            <img style="width: 125%;" src="foto/css-3.png" alt=""></button>
-                        <button class="habilidades">
-                            <img style="width: 80%; " src="foto/javascript1.png" alt=""></button>
+                        <button class="habilidades"> <img style="width: 80%; " src="foto/html-5-removebg-preview.png" alt=""></button>
+                        <button class="habilidades">  <img style="width: 125%;" src="foto/css-3.png" alt=""></button>
+                        <button class="habilidades"> <img style="width: 80%; " src="foto/javascript1.png" alt=""></button>
                     </div>
-
                     <div class="col-xs-5 col-sm-5 col-md-4 col-lg-4 d-flex text-center">
                         <button class="habilidades" onmouseover="botaoClicado()" onmouseout="botaoNClicado()">
-                            <img style="width: 55%; margin-left: -35%;" src="foto/bootstrap.png" alt="">
-                            <button class="habilidades" onmouseover="botaoClicado('#github')"
-                                onmouseout="botaoNClicado('#github')">
-                                <img style="width: 93%; margin-left: -120%; margin-top: 3%;" src="foto/git.png" alt="">
-                                <button class="habilidades" onmouseover="botaoClicado('#rsti')"
-                                    onmouseout="botaoNClicado('#rsti')">
-                                    <img style="width: 120%; margin-left: -120%;"
-                                        src="foto/rsti_logo-removebg-preview.png" alt="">
+                        <img style="width: 55%; margin-left: -35%;" src="foto/bootstrap.png" alt="">
+                        <button class="habilidades" onmouseover="botaoClicado('#github')" onmouseout="botaoNClicado('#github')">
+                        <img style="width: 93%; margin-left: -120%; margin-top: 3%;" src="foto/git.png" alt="">
+                        <button class="habilidades" onmouseover="botaoClicado('#rsti')" onmouseout="botaoNClicado('#rsti')">
+                        <img style="width: 120%; margin-left: -120%;"src="foto/rsti_logo-removebg-preview.png" alt="">
                     </div>
                 </div>
-
                 <div class="row mt-5 mb-5 d-none d-md-flex d-lg-flex">
                     <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                         <div class="row">
@@ -325,13 +309,11 @@
                                     <img style="width: 100%;" src="foto/html-5-removebg-preview.png" alt=""></button>
                             </div>
 
-
                             <div class="col-xs-5 col-sm-5 col-md-4 col-lg-4 ">
                                 <button class="habilidades" onmouseover="botaoClicado('#css-3')"
                                     onmouseout="botaoNClicado('#css-3')">
                                     <img style="width: 100%;" src="foto/css-3.png" alt=""></button>
                             </div>
-
 
                             <div class="col-xs-5 col-sm-5 col-md-4 col-lg-4 ">
                                 <button class="habilidades" onmouseover="botaoClicado('#javascript')"
@@ -351,10 +333,10 @@
                                     <img style="width: 93%; margin-top: 3%;" src="foto/git.png" alt="">
                             </div>
 
-                            <div class="col-xs-5 col-sm-5 col-md-4 col-lg-4 mt-5">
+                            <div class="col-xs-5 col-sm-5 col-md-4 col-lg-4 mt-1">
                                 <button class="habilidades" onmouseover="botaoClicado('#rsti')"
                                     onmouseout="botaoNClicado('#rsti')">
-                                    <img style="width: 100%;" src="foto/rsti_logo-removebg-preview.png" alt="">
+                                    <img style="width: 100%;" src="foto/jquery.gif" alt="">
                             </div>
 
                         </div>
@@ -364,86 +346,63 @@
                             <p>/*Passe o mouse sobre as imagens para ler a descrição*/</p>
                         </div>
                         <div id="html5" class=" text-dark d-none  mt-3">
-                            <p>HTML</p>
-                            <p>É uma linguagem de marcação utilizada para construção de páginas na web.</p>
-                            <p>Tenho 3 meses de experiência com esta tecnologia e ja desenvolvi diversas paginas com
-                                intuito de me aprofundar na linguagem.</p>
+                            <p>HTML é uma linguagem de marcação utilizada para construção de páginas na web.</p>
+                           
                         </div>
                         <div class="text-dark d-none mt-3" id="css-3">
                             <div>
-                                <p>CSS</p>
-                                <p>É um mecanismo para adicionar estilos a um documento web que se complementa com o
+                                <p>CSS é um mecanismo para adicionar estilos a um documento web que se complementa com o
                                     HTML.</p>
-                                <p>Tenho 2 meses de experiência com esta tecnologia.</p>
                             </div>
                         </div>
                         <div class="text-dark d-none mt-3" id="javascript">
                             <div>
-                                <p>JavaScript</p>
-                                <p>É uma linguagem de programação.<br>Juntamente com HTML e CSS, é uma das três
-                                    primeiras tecnologias da web.</p>
-                                <p>Tenho 2 semanas de experiência com esta tecnologia, mas continuo a estudar.</p>
+                                <p>O JavaScript é uma linguagem de programação amplamente utilizada para criar interatividade em páginas da web.</p>
                             </div>
                         </div>
                         <div class="text-dark d-none mt-3" id="github">
                             <div>
-                                <p>GitHub</p>
-                                <p>É uma plataforma de hospedagem de codigo-fontes e arquivos com controle de versão.
+                                <p>O GitHub é uma plataforma de hospedagem de código e colaboração para desenvolvimento de software.
                                 </p>
                             </div>
                         </div>
                         <div class="text-dark d-none mt-3" id="rsti">
                             <div>
-                                <p>RSTI</p>
-                                <p>É um programa do senac, com o objetivo de capacitar pessoas para atuarem no mercado
-                                    de Tecnologia da Informação a fim de desenvolver habilidades técnicas necessárias
-                                    para atuação como Desenvolvedores de Software.</p>
-                                <p>Meus cursos:</p>
-                                <p>Logica de programação 60h</p>
-                                <p>Desenvolvimento Front-End 108h</p>
-                                <p>JavaScript 36h</p>
+                                <p>jQuery é uma biblioteca de JavaScript que simplifica a interação e manipulação de elementos HTML, tornando o desenvolvimento web mais eficiente e fácil.</p>
                             </div>
                         </div>
                         <div class="text-dark d-none mt-3" id="bootstrap">
                             <div>
-                                <p>BOOTSTRAP</p>
-                                <p>É um framework front-end que fornece estruturas de CSS para a criação de sites e
+                                <p>O Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e
                                     aplicações responsivas de forma rápida e simples.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+           
             <footer>
-                <div style="border-top: 3px solid rgb(97, 64, 59);">
+                <div>
+                    <h1 class=" text-dark text-center pt-5">Contato</h1>
                     <div class="container text-dark">
-                        <p class="pt-4 pb-4 text-center "><small>By Eduardo Grossi Ramires &copy; | 2022 Todos os
-                                direitos reservados.</small>
-                        </p>
-                        <p class=" text-center"><b></b>E-mail para contato: duduramires2005@gmail.com</b></p>
-                        <p class=" text-center"><b></b>Telefone e WhatsApp para contato: <a href="https://api.whatsapp.com/send?phone=5555981247295" class="text-dark" style="text-decoration: none;"><img src="foto/whatsapp-logo-1.png" style="width: 5%;" alt="">  55 98124-7295 </a></b></p>
+                        <div class="contact text-center">
+                            <p>E-mail para contato: <a href="mailto:duduramires2005@gmail.com">duduramires2005@gmail.com</a></p>
+                            <p><b></b>Telefone e WhatsApp para contato: <a href="https://api.whatsapp.com/send?phone=5555981247295" class="text-dark" style="text-decoration: none;"><img src="foto/whatsapp-logo-1.png" style="width: 5%;" alt="">(55) 98124-7295</a></p>
+                        </div>
                         <p class=" text-center">Acesse meu GIT:</p>
                         <p id="contato" class="text-center"><a href="https://github.com/eduardo-ramires"
                                 target="_blank"><img class="img-git-fotter" src="foto/git.png" alt=""></a></p>
+                        <p class="pt-4 pb-4 text-center "><small>By Eduardo Grossi Ramires &copy; | 2023 Todos os
+                            direitos reservados.</small>
+                        </p>
                     </div>
                 </div>
             </footer>
         </section>
-
-
-
-
     </main>
-
-
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-
-
 </body>
-
 </html>
